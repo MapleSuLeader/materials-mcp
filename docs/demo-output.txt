@@ -1,0 +1,22 @@
+[1] handshake OK: server=materials-prices protocol=2025-11-25
+[2] tools/list OK: ['list_materials', 'get_price_history', 'get_price_summary']
+[3] list_materials -> [
+  {
+    "material": "lumber",
+    "cn": "木材/成材",
+    "fred_id": "WPU1011",
+    "title": "PPI Commodity: Lumber and Woo...
+[4] get_price_summary:
+     {"material": "lumber", "cn": "木材/成材", "fred_id": "WPU1011", "latest_date": "2026-09-01", "latest_value": 206.602, "mom_pct": 0.0, "yoy_pct": 0.38}
+     {"material": "steel_mill", "cn": "钢铁厂产品", "fred_id": "WPU1017", "latest_date": "2026-09-01", "latest_value": 388.58, "mom_pct": 2.16, "yoy_pct": 27.58}
+     {"material": "portland_cement", "cn": "波特兰水泥", "fred_id": "WPU132201", "latest_date": "2026-09-01", "latest_value": 356.209, "mom_pct": 0.03, "yoy_pct": -1.18}
+     {"material": "insulated_wire", "cn": "绝缘电线电缆", "fred_id": "PCU335929335929F", "latest_date": "2026-09-01", "latest_value": 193.549, "mom_pct": -6.74, "yoy_pct": 14.2}
+[5] get_price_history WPU10170501: count=9 last={'date': '2026-09-01', 'value': 362.132}
+ALL PASSED in 88.5s
+
+---
+Run date: 2026-11-02 15:00 CST (P50 local machine, proxy path)
+Exit code: 0 (ALL PASSED)
+Latest published observation date: 2026-09-01 (freshest BLS monthly print as of run date)
+Cold cache (~80s): 5 series re-fetched due to 24h TTL; other 28 served from data/series_catalog.json validation.
+Paths sanitized to [path]. Output verbatim otherwise.
