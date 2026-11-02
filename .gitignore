@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime data: cache + scratch regenerated; series_catalog.json IS required by server.py
+data/cache/
+data/candidates*.txt
+
+# Validation scratch / debug
+data/verify_raw*
+debug/
+
+# OS / editor
+.DS_Store
+*.swp
