@@ -1,0 +1,7 @@
+{
+  "$schema": "https://glama.ai/mcp/server-schema.json",
+  "maintainers": ["MapleSuLeader"],
+  "name": "materials-mcp",
+  "description": "US construction material price indices (BLS/FRED, 33 series) for AI agents. No API key.",
+  "category": "data"
+}
