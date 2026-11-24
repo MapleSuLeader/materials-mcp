@@ -1,6 +1,6 @@
 # MCP 目录提交材料包（materials-mcp）
 
-状态：2026-11-02 web 核实。占位符 `https://github.com/<GH_USER>/materials-mcp` 待用户注册 GitHub 后替换。
+状态：2026-11-02 web 核实。占位符已于 2026-11-24 替换为 MapleSuLeader，仓库已公开。
 所有文案草稿见文末「通用字段文案」，各目录直接复制。
 
 > ⚠️ 2026 年生态变动提示：Smithery 被 Arcade.dev 收购，其 proxy/hosting（`*.smithery.ai` 运行端点）
@@ -16,7 +16,7 @@
 - **机制**：粘贴 repo/server URL → 自动抓取 README/元数据 → 人工 review 后上架（官网 FAQ 原话 "Listings go live after review"）
 - **风险提示**：apideck/linkly 2026-10/11 两份独立综述均提到 mcp.so 免费队列暂停、$39 一次性 premium 为当时唯一可见通道。先走免费提审，被排队 2 周+再考虑付费。
 - **表单字段草稿**：
-  - Repository URL: `https://github.com/<GH_USER>/materials-mcp`
+  - Repository URL: `https://github.com/MapleSuLeader/materials-mcp`
   - Name: `materials-mcp`（自动抓取）
   - Description: 用文末通用 description
   - Category/Tags: `data` / `finance-prices` / `construction`（以表单实际选项就近选择）
@@ -38,13 +38,13 @@
   ```json
   {
     "$schema": "https://glama.ai/mcp/server-schema.json",
-    "maintainers": ["<GH_USER>"],
+    "maintainers": ["MapleSuLeader"],
     "name": "materials-mcp",
     "description": "US construction material price indices (BLS/FRED, 33 series) for AI agents. No API key.",
     "category": "data"
   }
   ```
-- **表单字段草稿**：GitHub repo URL `https://github.com/<GH_USER>/materials-mcp`；display name / tagline / category 同上
+- **表单字段草稿**：GitHub repo URL `https://github.com/MapleSuLeader/materials-mcp`；display name / tagline / category 同上
 
 ## 4. mcpservers.org (Awesome MCP Servers, punkpeye)
 
@@ -52,7 +52,7 @@
 - **机制**：表单提交 repo URL，自动读 GitHub 元数据（该站由 punkpeye/awesome-mcp-servers 仓库驱动，仓库 README 明示不收 PR、走网站表单 ✅）
 - **登录方式**：站点支持 GitHub OAuth 登录（同生态惯例）→ 提交是否强制登录 **待验证**（表单可能匿名可用）
 - **表单字段草稿**：
-  - GitHub URL: `https://github.com/<GH_USER>/materials-mcp`
+  - GitHub URL: `https://github.com/MapleSuLeader/materials-mcp`
   - Name: `Materials Prices (US Construction PPI)`
   - Description: 通用 description（见文末）
   - Category: `Finance`（有该分类 ✅）或 `Other`；本站另有 Marketing 分类，勿选
@@ -96,7 +96,7 @@
   > (batch latest value + MoM% + YoY%). Real hook: steel mill products +27.6% YoY
   > (Sep 2026) vs +3.9% average in RSMeans' 2026 report — the volatility gap your
   > agent can now see. Free, MIT, runs locally over stdio; hosted PRO endpoint planned.
-- **Repo URL**: `https://github.com/<GH_USER>/materials-mcp`
+- **Repo URL**: `https://github.com/MapleSuLeader/materials-mcp`
 - **License**: MIT
 - **Transport**: stdio（本地）
 - **关键词/标签**: `mcp`, `construction`, `ppi`, `fred`, `bls`, `pricing`, `estimating`

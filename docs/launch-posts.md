@@ -2,7 +2,7 @@
 
 日期：2026-11-02 ｜ 全部数字来自 2026-11-02 实跑 `test_client.py`（docs/demo-output.txt）
 与提案文档（docs/proposal-pricing-acquisition.md）既有出处，无虚构。
-GitHub 地址占位：`https://github.com/<GH_USER>/materials-mcp`（推送后替换全文）。
+GitHub 地址占位：`https://github.com/MapleSuLeader/materials-mcp`（推送后替换全文）。
 📸 占位说明：凡标 [SCREENSHOT] 处，发布前用终端录屏/README 顶部截图替换（macOS: `clean` + `script`，或 asciinema）。
 
 ---
@@ -51,7 +51,7 @@ GitHub 地址占位：`https://github.com/<GH_USER>/materials-mcp`（推送后�
 > monthly, not spot. A hosted PRO tier (remote streamable-HTTP endpoint, daily refresh,
 > alerts) is planned — the local stdio server stays free forever.
 >
-> Repo: https://github.com/<GH_USER>/materials-mcp
+> Repo: https://github.com/MapleSuLeader/materials-mcp
 >
 > Would love feedback from anyone in estimating/proptech: does your agent need material
 > prices, and what would make you pay vs. RSMeans at $408/yr?
@@ -91,7 +91,7 @@ GitHub 地址占位：`https://github.com/<GH_USER>/materials-mcp`（推送后�
 >
 > [SCREENSHOT: Cursor chat calling get_price_summary, real numbers visible]
 >
-> MIT, repo: https://github.com/<GH_USER>/materials-mcp
+> MIT, repo: https://github.com/MapleSuLeader/materials-mcp
 > Hosted remote version planned (that'll be paid); local version stays free.
 
 ## 3. r/Construction 或 r/Estimating
@@ -159,7 +159,7 @@ GitHub 地址占位：`https://github.com/<GH_USER>/materials-mcp`（推送后�
 > Agent pulls official BLS data itself. No scraping FRED dashboards, no $408/yr login just to sanity-check one number.
 
 **5/**
-> Repo (MIT, ~190 LOC): https://github.com/<GH_USER>/materials-mcp
+> Repo (MIT, ~190 LOC): https://github.com/MapleSuLeader/materials-mcp
 >
 > Free forever locally. A hosted remote endpoint (daily auto-refresh, alerts) is coming as the paid tier.
 >
@@ -169,7 +169,7 @@ GitHub 地址占位：`https://github.com/<GH_USER>/materials-mcp`（推送后�
 
 ## 发布 checklist
 
-- [ ] 替换全部 `<GH_USER>` 占位 + 确认仓库公开、About/Topics 已设（topics: `mcp`, `construction`, `pricing`, `fred`, `bls`）
+- [ ] 替换全部 `MapleSuLeader` 占位 + 确认仓库公开、About/Topics 已设（topics: `mcp`, `construction`, `pricing`, `fred`, `bls`）
 - [ ] 截图 ×3：① README 顶部（含 value prop 行）② test_client.py 终端实跑（demo-output.txt 同款）③ Cursor/Claude Code 内实际调用一帧
 - [ ] HN 工作日 14:30–15:30 (UTC) CST≈东八区晚间发帖→对应美东早高峰前；2 小时内在线回评论
 - [ ] Reddit：r/Estimating 先发（数据向），r/Construction 隔天再发（改写更软）；自查两版 subreddit rules 的 self-promo 条款
