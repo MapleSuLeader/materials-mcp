@@ -1,5 +1,7 @@
 # materials-mcp
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/maplesuleader/materials-mcp)
+
 **US construction material prices for AI agents — free, 33 FRED series via MCP.**
 
 An MCP (Model Context Protocol) server that gives Claude Code, Cursor, and any other
